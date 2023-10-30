@@ -1,0 +1,8 @@
+git branch
+git branch test
+git checkout test
+touch test.txt
+git add test.txt
+git commit -m 'initial commit'
+git push --set-upstream origin test
+
